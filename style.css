@@ -383,6 +383,149 @@ ul{
 @media only screen and (min-width: 600px) {
 
     .logoImg {
+        top: 0%;
+        left: 15%;
+        height: 40%;
+    }
+
+    .trneff {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(255, 255, 255, 0.6);
+        z-index: 111;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    .res1{
+        display: none;
+    }
+
+    .res{
+        display: block;
+    }
+
+    .secDiv {
+        padding-top: 8%;
+    }
+
+    .carousal {
+        display: flex;
+        /* width: 76%; */
+        flex-direction: column;
+        margin: 0px auto;
+        z-index: 999;
+    }
+
+    .carousal div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .secDiv{
+        background-color: rgb(29, 28, 28);
+        padding-bottom: 0px;
+    }
+    .cosmHead{
+        color: white;
+    }
+    .salon {
+        font-size: 48px;
+        margin-top: 10px;
+        
+    }
+    .salonD {
+        position: absolute;
+        /* left: 2%; */
+        top: 22px;
+        font-size: small;
+        text-align: center;
+    }
+
+    .div22 {
+        width: 100%;
+        margin-top: 25px;
+        padding-bottom: 35px !important;
+    }
+
+    .div22 img {
+        height: 51%;
+        width: 100%;
+    }
+    .overImg img{
+        height: 31%;
+        width: 100%;
+    }
+    .overImg {
+        width: 100%;
+    }
+    .div44 img{
+        height: 60%;
+        width: 100%;
+    }
+    .div55 {
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .imgBg{
+        display: none;
+    }
+    .imgDiv{
+        height: fit-content;
+    }
+    .div33{
+        padding-bottom: 0px;
+    }
+    .div44 img{
+        margin-top: 34px;
+    }
+    .div44 p{
+        margin-top: 18px;
+    }
+    .footer p, .footer ul{
+        font-size: 14px;
+    }
+
+    .logoDiv img{
+        height: 60px;
+    }
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 2px;
+    }
+    .footerSec1 {
+        padding-right: 0px;
+    }
+    .footerSec {
+        border: none;
+        padding: 15px;
+    }
+
+    .footer p, .footer i, .footer h4, .footer ul{
+        color: rgb(202, 202, 202);
+    }
+    .copyrightDiv {
+        font-size: 14px;
+    }
+
+
+
+
+    .bground{
+        display: none;
+    }
+    
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .logoImg {
         position: absolute;
         top: 2%;
         left: 19%;
@@ -401,9 +544,6 @@ ul{
         display: none;
     }
 }
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 992px) {
