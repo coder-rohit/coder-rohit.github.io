@@ -102,8 +102,12 @@
 
 .salonD{
     position: absolute;
-    left: 39%;
+    /* left: 39%; */
     top: 158px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
 }
 
 .div22{
@@ -289,12 +293,14 @@ ul{
     .salon {
         font-size: 48px;
         margin-top: 10px;
+        
     }
     .salonD {
         position: absolute;
-        left: 2%;
+        /* left: 2%; */
         top: 22px;
         font-size: small;
+        text-align: center;
     }
 
     .div22 {
@@ -421,11 +427,12 @@ ul{
 
     .salon{
         font-size: 190px;
+        
     }
 
     .salonD {
         position: absolute;
-        left: 38%;
+        /* left: 38%; */
         top: 110px;
     }
 
@@ -601,7 +608,7 @@ ul{
     
     .salonD{
         position: absolute;
-        left: 39%;
+        /* left: 39%; */
         top: 158px;
     }
     
