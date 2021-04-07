@@ -380,7 +380,27 @@ ul{
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+
+    .logoImg {
+        position: absolute;
+        top: 2%;
+        left: 19%;
+        margin: 0 auto;
+        height: 35%;
+    }
+    
+
+
+    .secDiv,
+    .salonDiv,
+    .div22,
+    .div33,
+    .footer,
+    .copyrightDiv{
+        display: none;
+    }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {}
