@@ -1,0 +1,731 @@
+.headerDiv .div11{
+    padding-left: 0px !important;
+ /* background-color: red; */
+    padding-right: 0px !important;
+    /* height: 95%; */
+    position: relative;
+}
+
+.headerDiv .topImgs{
+    width: 100%;
+    height: 100%;
+}
+
+.headerDiv{
+    --bs-gutter-x: 0;
+    /* height: 100%; */
+    
+}
+
+.centerDiv{
+    position: relative;
+}
+
+.logoImg{
+    position: absolute;
+    top: 2%;
+    left: 19%;
+    margin: 0 auto;
+}
+
+.trneff{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(255, 255, 255, 0.6);
+    z-index: 111;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+}
+
+.secDiv{
+    padding-top: 5%;
+    background-color: #E7E7E7;
+    position: relative;
+    z-index: 999;
+    padding-bottom: 30px;
+}
+
+.carousal{
+    display: flex;
+    /* width: 76%; */
+    margin: 0px auto;
+    justify-content: space-around;
+    z-index: 999;
+}
+
+.p11{
+    margin-top: 10px;
+    text-align: center;
+    font-weight: 500;
+    color: white;
+}
+
+.p22{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.darkBack{
+    position: absolute;
+    width: 100%;
+    height: 190px;
+    background-color: rgb(29, 28, 28);
+    bottom: 20px;
+    z-index: -999;
+    padding-bottom: 10px;
+}
+
+.salon{
+    text-align: center;
+    z-index: -100;
+    font-weight: 800;
+    font-size: 245px;
+    color: rgb(228, 228, 228);
+}
+
+.salonDiv{
+    position: relative;
+    text-align: center;
+}
+
+.salonC{
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 310px;
+    font-weight: 500;
+}
+
+.salonD{
+    position: absolute;
+    left: 39%;
+    top: 158px;
+}
+
+.div22{
+    width: 70%;
+}
+
+.div22 img{
+    height: 71%;
+    width: 93%;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.div33{
+    background-color: rgb(216, 216, 216);
+    position: relative;
+    z-index: -3;
+    padding-bottom: 30px;
+}
+
+.learnBtn{
+    border: none;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+}
+
+.div44{
+    width: 70%;
+}
+
+.div55{
+    width: 74%;
+    margin: 67px 124px;
+    font-weight: 500;
+}
+
+.bground{
+    position: absolute;
+    z-index: -2;
+    
+}
+
+.overImg{
+    /* position: absolute; */
+    z-index: 9999;
+    left: 50%;
+}
+
+.imgBg{
+    position: absolute;
+    width: 65%;
+    height: 470px;
+    background: rgb(104, 104, 104);
+    z-index: -1;
+    bottom: 30px;
+}
+
+.div66{
+    /* margin: 0 auto; */
+    display: flex;
+    justify-content: center;
+}
+
+.footer{
+    
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding-top: 85px;
+    padding-bottom: 36px;
+    z-index: 2;
+}
+
+.logoDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.titleDiv{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-between;
+}
+
+.footerSec {
+    border-right: 1px solid white;
+}
+
+.footerSec1{
+    padding-right: 25px;
+}
+
+.socialIcon{
+    margin: 0px 9px;
+    font-size: 20px;
+}
+
+.socialIconDiv{
+    margin: 31px 21px;
+}
+
+.footerSec h4{
+    margin-left: 10%;
+}
+
+.footerSec ul{
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.footerSec li{
+    margin: 15px 0px;
+}
+
+.copyrightDiv{
+    background-color: rgb(216, 216, 216);
+}
+
+.copyrightDiv p{
+    margin-bottom: 0px;
+}
+
+.res{
+    display: none;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    .logoImg {
+        top: 0%;
+        left: 15%;
+        height: 40%;
+    }
+
+    .trneff {
+        width: 100%;
+        height: 80px;
+        background-color: rgb(255, 255, 255, 0.6);
+        z-index: 111;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+    }
+
+    .res1{
+        display: none;
+    }
+
+    .res{
+        display: block;
+    }
+
+    .secDiv {
+        padding-top: 8%;
+    }
+
+    .carousal {
+        display: flex;
+        /* width: 76%; */
+        flex-direction: column;
+        margin: 0px auto;
+        z-index: 999;
+    }
+
+    .carousal div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .secDiv{
+        background-color: rgb(29, 28, 28);
+        padding-bottom: 0px;
+    }
+    .cosmHead{
+        color: white;
+    }
+    .salon {
+        font-size: 48px;
+        margin-top: 10px;
+    }
+    .salonD {
+        position: absolute;
+        left: 2%;
+        top: 22px;
+        font-size: small;
+    }
+
+    .div22 {
+        width: 100%;
+        margin-top: 25px;
+        padding-bottom: 35px !important;
+    }
+
+    .div22 img {
+        height: 51%;
+        width: 100%;
+    }
+    .overImg img{
+        height: 31%;
+        width: 100%;
+    }
+    .overImg {
+        width: 100%;
+    }
+    .div44 img{
+        height: 60%;
+        width: 100%;
+    }
+    .div55 {
+        width: 100%;
+        margin: 0;
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .imgBg{
+        display: none;
+    }
+    .imgDiv{
+        height: fit-content;
+    }
+    .div33{
+        padding-bottom: 0px;
+    }
+    .div44 img{
+        margin-top: 34px;
+    }
+    .div44 p{
+        margin-top: 18px;
+    }
+    .footer p, .footer ul{
+        font-size: 14px;
+    }
+
+    .logoDiv img{
+        height: 60px;
+    }
+    .footer {
+        padding-top: 25px;
+        padding-bottom: 2px;
+    }
+    .footerSec1 {
+        padding-right: 0px;
+    }
+    .footerSec {
+        border: none;
+        padding: 15px;
+    }
+
+    .footer p, .footer i, .footer h4, .footer ul{
+        color: rgb(202, 202, 202);
+    }
+    .copyrightDiv {
+        font-size: 14px;
+    }
+
+
+
+
+    .bground{
+        display: none;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .logoImg {
+        position: absolute;
+        top: 0%;
+        left: 7%;
+        margin: 0 auto;
+    }
+
+    .trneff {
+        height: 81px;
+    }    
+
+    .carousal img {
+        height: 80%;
+        width: 73%;
+        margin-left: 35px;
+    }
+
+    .bground img{
+        /* height: 130%; */
+        width: 97%;
+    }
+
+    .div22{
+        padding-bottom: 18px;
+    }
+
+    .div33{
+        background-color: rgb(216, 216, 216);
+        position: relative;
+        z-index: -3;
+        padding-bottom: 30px;
+        padding-top: 40px;
+    }
+
+    .cosmHead{
+        padding-bottom: 10px;
+    }
+
+    .salon{
+        font-size: 190px;
+    }
+
+    .salonD {
+        position: absolute;
+        left: 38%;
+        top: 110px;
+    }
+
+    .div22 p, .div22 li{
+        font-size: 15px;
+    }
+
+    .div22 img {
+        height: 86%;
+        width: 100%;
+    }
+
+    .carousal div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .div44 img{
+        height: 81%;
+    }
+
+    .div55 {
+        margin: 40px 124px;
+        font-size: 15px;
+    }
+    
+
+    .footerSec h4 {
+        margin-left: 14%;
+    }
+
+    .footer p, .footer ul{
+        font-size: 14px;
+    }
+
+    .logoDiv img{
+        height: 60px;
+    }
+
+    .footer p, .footer i, .footer h4, .footer ul{
+        color: rgb(202, 202, 202);
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .headerDiv .div11{
+        padding-left: 0px !important;
+     /* background-color: red; */
+        padding-right: 0px !important;
+        /* height: 95%; */
+        position: relative;
+    }
+
+    .footer p, .footer ul{
+        font-size: 16px;
+    }
+
+    .logoDiv img{
+        height: auto;
+    }
+
+    .div44 img{
+        height: auto;
+    }
+
+    .div22 p, .div22 li{
+        font-size: 16px;
+    }
+
+    .cosmHead{
+        padding-bottom: 50px;
+    }
+
+    .carousal img{
+        height: inherit;
+    }
+    
+    .headerDiv .topImgs{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .headerDiv{
+        --bs-gutter-x: 0;
+        /* height: 100%; */
+        
+    }
+    
+    .centerDiv{
+        position: relative;
+    }
+    
+    .logoImg{
+        position: absolute;
+        top: 2%;
+        left: 19%;
+        margin: 0 auto;
+    }
+    
+    .trneff{
+        width: 100%;
+        height: 100px;
+        background-color: rgb(255, 255, 255, 0.6);
+        z-index: 111;
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 36px;
+    }
+    
+    .secDiv{
+        padding-top: 5%;
+        background-color: #E7E7E7;
+        position: relative;
+        z-index: 999;
+        padding-bottom: 30px;
+    }
+    
+    .carousal{
+        display: flex;
+        width: 76%;
+        margin: 0px auto;
+        justify-content: space-around;
+        z-index: 999;
+    }
+    
+    .p11{
+        margin-top: 10px;
+        text-align: center;
+        font-weight: 500;
+        color: white;
+    }
+    
+    .p22{
+        margin-top: 10px;
+        margin-bottom: 0px;
+    }
+    
+    .darkBack{
+        position: absolute;
+        width: 100%;
+        height: 190px;
+        background-color: rgb(29, 28, 28);
+        bottom: 20px;
+        z-index: -999;
+        padding-bottom: 10px;
+    }
+    
+    .salon{
+        text-align: center;
+        z-index: -100;
+        font-weight: 800;
+        font-size: 245px;
+        color: rgb(228, 228, 228);
+    }
+    
+    .salonDiv{
+        position: relative;
+        text-align: center;
+    }
+    
+    .salonC{
+        display: flex;
+        justify-content: space-around;
+        margin: 0px auto;
+        width: 310px;
+        font-weight: 500;
+    }
+    
+    .salonD{
+        position: absolute;
+        left: 39%;
+        top: 158px;
+    }
+    
+    .div22{
+        width: 70%;
+    }
+    
+    .div22 img{
+        height: 71%;
+        width: 93%;
+    }
+    
+    ul{
+        list-style-type: square;
+    }
+    
+    .div33{
+        background-color: rgb(216, 216, 216);
+        position: relative;
+        z-index: -3;
+        padding-bottom: 30px;
+        padding-top: 60px;
+    }
+    
+    .learnBtn{
+        border: none;
+        background-color: black;
+        color: white;
+        padding: 4px 10px;
+    }
+    
+    .div44{
+        width: 70%;
+    }
+    
+    .div55{
+        width: 74%;
+        margin: 67px 124px;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    
+    .bground{
+        position: absolute;
+        z-index: -2;
+        
+    }
+    
+    .overImg{
+        /* position: absolute; */
+        z-index: 9999;
+        left: 50%;
+    }
+    
+    .imgBg{
+        position: absolute;
+        width: 65%;
+        height: 470px;
+        background: rgb(104, 104, 104);
+        z-index: -1;
+        bottom: 30px;
+    }
+    
+    .div66{
+        /* margin: 0 auto; */
+        display: flex;
+        justify-content: center;
+    }
+    
+    .footer{
+        
+        background-color: rgb(51, 51, 51);
+        color: white;
+        padding-top: 85px;
+        padding-bottom: 36px;
+        z-index: 2;
+    }
+    
+    .logoDiv{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titleDiv{
+        display: flex;
+        margin-top: 35px;
+        justify-content: space-between;
+    }
+    
+    .footerSec {
+        border-right: 1px solid white;
+    }
+    
+    .footerSec1{
+        padding-right: 25px;
+    }
+    
+    .socialIcon{
+        margin: 0px 9px;
+        font-size: 20px;
+    }
+    
+    .socialIconDiv{
+        margin: 31px 21px;
+    }
+    
+    .footerSec h4{
+        margin-left: 10%;
+    }
+    
+    .footerSec ul{
+        list-style-type: none;
+        margin-top: 25px;
+    }
+    
+    .footerSec li{
+        margin: 15px 0px;
+    }
+    
+    .copyrightDiv{
+        background-color: rgb(216, 216, 216);
+    }
+    
+    .copyrightDiv p{
+        margin-bottom: 0px;
+    }
+}
