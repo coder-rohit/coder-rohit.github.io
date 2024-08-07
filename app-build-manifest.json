@@ -1,0 +1,86 @@
+{
+  "pages": {
+    "/layout": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/css/8f8010e47a720aa8.css",
+      "static/chunks/app/layout-110a306598479656.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/page-cd80396507a3fffd.js"
+    ],
+    "/apps/impulseux/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/apps/impulseux/page-91e8e19e5ce60ae1.js"
+    ],
+    "/apps/loteria-monarca/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/apps/loteria-monarca/page-b7694d438cc43aae.js"
+    ],
+    "/apps/realtor-simplified/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/apps/realtor-simplified/page-ccb9c75824d2e846.js"
+    ],
+    "/apps/realtor-template-1/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/apps/realtor-template-1/page-7d0ff18f6c5f3a8a.js"
+    ],
+    "/apps/leenith-borges/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/apps/leenith-borges/page-171747c8e98fd0e6.js"
+    ],
+    "/apps/sierra-ecomaderas/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/apps/sierra-ecomaderas/page-7353094c12485c86.js"
+    ],
+    "/leetcode/two-pointers/page": [
+      "static/chunks/webpack-2ffcfd6d69d5c09e.js",
+      "static/chunks/fd9d1056-ce45fac083ba726c.js",
+      "static/chunks/596-c96a10718e0ea6e8.js",
+      "static/chunks/main-app-f5857f534459363d.js",
+      "static/chunks/709-24640d1aadb75aac.js",
+      "static/chunks/55-7f8ce108c6bdb2ce.js",
+      "static/chunks/app/leetcode/two-pointers/page-662023241eb8aac0.js"
+    ]
+  }
+}
